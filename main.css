@@ -1,0 +1,63 @@
+body {
+display: grid;
+width: 100vw;
+height: 100vh;
+grid-template-columns: repeat(5, 20%);
+grid-template-rows: repeat(3, 33.33333%);
+justify-content: start;
+color: white;
+}
+
+section {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row: 1 / 2;
+  background-color: #60B980
+}
+
+main {
+  grid-column: 4 / 6;
+  grid-row: 1 / 4;
+  background-image: url('puppy.jpg');
+  background-size: cover;
+}
+
+article {
+  text-align: center;
+}
+
+.profile {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  background-color: #F2A23A
+}
+.blog {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: #60B980;
+}
+.education {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #E06451;
+}
+.experience {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: #418ABF;
+}
+.social-menu {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-color: #E8713B;
+}
+.contact {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: #418ABF;
+}
+.portfolio {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: #E8713B;
+}

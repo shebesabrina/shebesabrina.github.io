@@ -1,64 +1,40 @@
+main {
+  background-image: url('remote.jpg');
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+}
+
 body {
-display: grid;
-width: 100vw;
-height: 100vh;
-grid-template-columns: repeat(5, 20%);
-grid-template-rows: repeat(3, 33.33333%);
-justify-content: start;
-color: white;
 font-family: 'Raleway', sans-serif;
 }
 
 section {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 1 / 2;
-  background-color: #60B980;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+
 }
 
-main {
-  grid-column: 4 / 6;
-  grid-row: 1 / 4;
-  background-image: url('puppy.jpg');
-  background-size: cover;
-}
 
 article {
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .about-me {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
-  background-color: #F2A23A
+
 }
 
 .experience {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  background-color: #418ABF;
+
 }
 
 .contact {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  background-color: #418ABF;
+
 }
 .portfolio {
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-  background-color: #E8713B;
+
 }
 .blog {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-  background-color: #60B980;
+
 }

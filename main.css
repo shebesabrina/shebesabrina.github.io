@@ -6,13 +6,19 @@ grid-template-columns: repeat(5, 20%);
 grid-template-rows: repeat(3, 33.33333%);
 justify-content: start;
 color: white;
+font-family: 'Raleway', sans-serif;
 }
 
 section {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row: 1 / 2;
-  background-color: #60B980
+  background-color: #60B980;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 main {
@@ -24,33 +30,23 @@ main {
 
 article {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.profile {
+.about-me {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   background-color: #F2A23A
 }
-.blog {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-  background-color: #60B980;
-}
-.education {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  background-color: #E06451;
-}
+
 .experience {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   background-color: #418ABF;
 }
-.social-menu {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-  background-color: #E8713B;
-}
+
 .contact {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
@@ -60,4 +56,9 @@ article {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
   background-color: #E8713B;
+}
+.blog {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: #60B980;
 }

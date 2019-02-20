@@ -30,17 +30,22 @@ article {
   grid-template-rows: repeat(4);
 }
 
+.about-me h4 {
+  grid-column: 2/3;
+}
+
 .about-me img {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row: 2/4;
 }
 
-.about-me p {
+.about-me-intro {
   font-family: 'Slabo 27px', serif;
-  font-size: 15px;
+  font-size: 18px;
   grid-column: 2/4;
   grid-row: 2/4;
+  padding: 10px;
 }
 
 .experience {

@@ -31,7 +31,7 @@ article {
 }
 
 .about-me h4 {
-  grid-column: 2/3;
+  grid-column: 2/4;
 }
 
 .about-me img {
@@ -47,9 +47,13 @@ article {
   grid-row: 2/4;
   padding: 10px;
 }
-
+.experience h4 {
+  margin: 0;
+  padding: 50px;
+  color: white;
+}
 .experience {
-
+  background-color: #34495e;
 }
 
 .social {
